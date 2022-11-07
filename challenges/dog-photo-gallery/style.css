@@ -1,0 +1,38 @@
+img {
+  width: 300px;
+  height: 300px;
+  border: solid #9f6654 10px;
+  margin-top: 20px;
+}
+#next {
+  padding: 10px;
+  background-color: #9f6654 ;
+  width: 100px;
+  position: fixed;
+}
+
+#home {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #9f6654 ;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  background-image: url(dogs.png);
+}
+#dogList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
